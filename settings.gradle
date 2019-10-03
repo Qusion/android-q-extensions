@@ -1,2 +1,2 @@
-include ':app', ':extensions-kotlin', ':extensions-android'
+include ':app', ':extensions-android'
 rootProject.name='android-q-extensions'
