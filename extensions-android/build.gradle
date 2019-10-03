@@ -4,6 +4,9 @@ apply plugin: 'kotlin-android-extensions'
 
 apply from: '../dependency_versions.gradle'
 
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.QusionDev'
+
 android {
     compileSdkVersion target_sdk_version
     buildToolsVersion build_tools_version
